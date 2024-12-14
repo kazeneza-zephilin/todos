@@ -1,0 +1,190 @@
+@font-face {
+    font-family:"pacifico-regular" ;
+    src: url(../assets/font/pacifico-regular-webfont.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"poppins-regular";
+    src: url(../assets/font/poppins-regular-webfont.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"poppins-bold";
+    src: url(../assets/font/poppins-bold-webfont.woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    background-image:url("../assets/img/bg-img.webp");
+    font-size: 16px;
+}
+#call-us > button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    color: orangered;
+    font-family: pacifico-regular;
+    font-size: inherit;
+}
+#call-us > button:hover {
+    background-color: transparent;
+    font-family: pacifico-regular;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+    font-size: inherit;
+}
+#main-menu {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px;
+}
+.left-menu>img {
+    width: 100px;
+    height: 100px;
+}
+.right-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:
+    30%;
+}
+
+.right-menu button{
+    width: 80px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+    font-family: poppins-bold;
+    font-size: inherit;
+    text-align: center;
+}
+.right-menu button:hover{
+    width: 80px;
+    height: 35px;
+    border-radius: 15px;
+    color: orangered;
+    border: 2px solid orangered;
+    cursor: pointer;
+    font-size: inherit;
+    text-align: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-hero-section {
+    width: 35%;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.right-hero-section {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flying-tomato {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: -40px;
+}
+.red-tomato {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: -35px;
+    bottom: 10px;
+}
+.pizza-img {
+    width: 450px;
+    height: 450px;
+    margin-top: 100px;
+}
+
+.header-text {
+    font-family: pacifico-regular, sans-serif;
+    font-size: 36px;
+}
+.sub-header-text {
+    font-family: pacifico-regular, sans-serif;
+}
+.description-text {
+    font-family: poppins-regular, sans-serif;
+}
+
+.cta-btn {
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    font-family: poppins-bold;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-left: 80px;
+}
+.cta-btn:hover {
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    font-family: poppins-bold;
+    color: red;
+    background-color: white;
+    border: none;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+/* menu styles */
+
+.menu-div {
+    margin-top: 50px;
+    margin-left: 85px;
+    color: #AB250E;
+    font-family: pacifico-regular, sans-serif;
+}
+
+.bottom-pizza-img {
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    opacity: 0.6;
+}
+/* .product-name {
+    font-family: pacifico-bold, sans-serif;
+}
+#topping-price {
+    font-family: poppins-regular, sans-serif;
+} */
+
+/* about page */
+.about-us-title {
+    margin-top: 150px;
+    margin-left: 80px;
+    font-size: 36px;
+    font-family: pacifico-regular, sans-serif;
+}
+.about-description {
+    width: 600px;
+    font-family: poppins-regular, sans-serif;
+    line-height: 1.6;
+    margin-left: 80px;
+}
