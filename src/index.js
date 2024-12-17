@@ -20,7 +20,7 @@ window.addEventListener("load", () => {
         const todo = {
             content: e.target.elements.content.value,
             category: e.target.elements.category.value,
-            createdAt: new Date().getDate().toFixed,
+            createdAt: format(new Date(), "MMM, dd 'at' yyy  H:mm:ss"),
         };
         todos.push(todo);
         localStorage.setItem("todos", JSON.stringify(todos));
